@@ -446,23 +446,6 @@ textarea {
     margin-bottom: var(--mb-4);
 }
 
-/*アイコン消したからいらない
-.about-social-icon {
-    font-size: 2rem;
-    margin: 0 var(--mb-1);
-    transition: .3s;
-
-}*/
-/* アイコン消したからいらない
-.about-social-icon:hover {
-    color: var(--first-color);
-    transition: .3s;
-
-    border: solid;
-    border-color: coral;
-}
-*/
-
 /* Skills */
 .skills-container {
     row-gap: 2rem;
