@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- CSS -->
+        <link rel="stylesheet" href="../assets/css/styles.css">
+        <!-- Box Icons -->
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+        <!-- Favicons -->
+        <link rel="apple-touch-icon" sizes="180x180" href="../assets/img/favicon/sheep_cheek_icon.jpeg">
+        <link rel="icon" type="image/png" sizes="32x32" href="../assets/img/favicon/sheep_cheek_icon.jpeg">
+        <link rel="icon" type="image/png" sizes="16x16" href="../assets/img/favicon/sheep_cheek_icon.jpeg">
+        <link rel="manifest" href="assets/img/favicon/site.webmanifest">
+
+        <title>Kana Iwasa Portfolio</title>
+    </head>
+    <body>
+        <!-- Header -->
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <div>
+                    <a href="../index.html#about" class="nav-logo">Kana Iwasa</a>
+                </div>
+                <div class="nav-menu" id="nav_menu">
+                    <ul class="nav-list">
+                        <li class="nav-item"><a href="../index.html#home" class="nav-link">Home</a></li>
+                        <li class="nav-item"><a href="../index.html#about" class="nav-link">About</a></li>
+                        <li class="nav-item"><a href="../index.html#skills" class="nav-link">Skills</a></li>
+                        <li class="nav-item"><a href="../index.html#portfolio" class="nav-link active">Portfolio</a></li>
+                    </ul>
+                </div>
+                <div class="nav-toggle" id="nav_toggle">
+                    <i class="bx bx-menu"></i>
+                </div>
+            </nav>
+        </header>
+        <main class="l-main">
+            
+            <!-- project -->
+            <section class="project section" id="project">
+                <h2 class="section-title">2021/05 CUI GAME
+                </h2>
+                <div class="project-container bd-grid">
+             
+                  <video src="img/cuigame/cui_top.mp4" controls muted autoplay playinline loop ></video>
+                  
+                  <h2 class="project-subtitle"><p>カフェの注文合計金額を当てるCUIのゲーム
+                  </p></h2>
+                  <span class="project-profession">
+                    <p>
+                      OS:Raspbian<br>
+                      Editor:Geany<br>
+                      言語:C言語
+                      制作期間:2時間
+                      テレビ番組「ぐるナイ」の庶民版をイメージして作成しました<br>
+                      メニューはコメダ珈琲の公式サイトから引用しました<br>
+                    </p>
+                  </span>
+                    
+                  <p class="project-text"><h3>初期画面</h3>
+                    トータルの目標金額と９つのメニューを表示し、５つの数値を入力できるように表示します</p> 
+                  <img src="img/cuigame/CUI01.png" alt="project Image">
+
+                  <p class="project-text"><h3>メニューのオーダー</h3>
+                    選んだ５つのメニュー番号を入力します</p> 
+                  <img src="img/cuigame/cui02.png" alt="project Image">
+
+                  <p class="project-text"><h3>結果の表示</h3>
+                    選んだメニューの合計金額に応じて結果を表示し、メニューごとの金額と合計金額を表示します</p>
+                  <img src="img/cuigame/cui03.png" alt="project Image">
+
+                  <p class="project-text"><h3>リトライ</h3>
+                    「１」を押すともう一度５つのメニューを選択できます<br>
+                    「０」を押すとプログラムを終了します</p>
+                  <img src="img/cuigame/cui04.png" alt="project Image">
+
+                  <p class="project-text"><h3>工夫したところ</h3>
+                    入力された５つのメニュー番号を配列に代入し、その番号が１なら〇〇円、２なら〇〇円、、、と変換していき、<br>
+                    それを５回繰り返し、配列の要素の合計値を求めることで合計金額を求めました<br>
+                    ターミナルでは文字のみの表示となり殺風景になるため記号を使用してメニュー表の枠などの装飾をしました</p>
+
+                  <p class="project-text"><h3>改善点</h3>
+                    配列のインデックスが０から始まるのに対して、メニュー番号が１からはじまるようにしておりややこしく感じました<br>
+                    メニュー番号を０から始まるようにするとシンプルでよかったと思います<br>
+                    ゲームのルールやメニュー表が最初にしか表示されないのでリトライ時にも表示すると良かったです</p>
+
+
+                </div>
+            </section>
+            
+        </main>
+        <!-- Footer -->
+        <footer class="footer section">
+            <div class="footer-container bd-grid">
+                <div class="footer-data">
+                    <h2 class="footer-title">Kana Iwasa</h2>
+                    <p class="footer-text">現在、webを中心に学習中。以前はアイラッシュデザイナーをしていました。</p>
+                </div>
+                <div class="footer-data">
+                    <h2 class="footer-title">EXPLORE</h2>
+                    <ul>
+                        <li><a href="../index.html#home" class="footer-link">Home</a></li>
+                        <li><a href="../index.html#about" class="footer-link">About</a></li>
+                        <li><a href="../index.html#skills" class="footer-link">Skills</a></li>
+                        <li><a href="../index.html#portfolio" class="footer-link">Portfolio</a></li>
+                    </ul>
+                </div>
+                <div class="footer-data">
+                    <h2 class="footer-title">FOLLOW</h2>
+                    <div class="footer-icons">
+                      <a href="https://twitter.com/mememeeeco" target="blank" class="footer-social"><i class='bx bxl-twitter' ></i></a>
+                      <a href="https://www.instagram.com/oneplate_beauty/" target="blank" class="footer-social"><i class='bx bxl-instagram'></i></a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!-- JS -->
+        <script src="assets/js/main.js"></script>
+        <!-- Scroll Reveal -->
+        <script src="https://unpkg.com/scrollreveal"></script>
+    </body>
+</html>
