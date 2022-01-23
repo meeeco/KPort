@@ -510,9 +510,12 @@ textarea {
 .portfolio-link a {
     cursor: pointer;
     text-align: center;
+    font-size: 25px;
+    font-weight: bold;
     width: 100%;
     transition: .5s;
 }
+
 .portfolio-link a:hover {
     color: var(--first-color);
     transition: .3s;
